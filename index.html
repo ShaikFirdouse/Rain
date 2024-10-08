@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainy Day</title>
+</head>
+<body>
+    <button onclick="Stop()">Stop Rain</button>
+    <img id="rain" src="g.gif" height="650px" width="1500px">
+    <button onclick="Start()">Start rain</button>
+    <img id="start" src="icegif-453.gif" height="650px" width="1500px" style="display: none;">
+
+
+<script>
+    
+    function Stop(){
+        document.getElementById('rain').style.display='inline'
+        document.getElementById('start').style.display='none'
+
+    }function Start(){
+        document.getElementById('start').style.display='inline'
+        document.getElementById('rain').style.display='none'
+    }
+</script>
+    
+    
+</body>
+</html>
